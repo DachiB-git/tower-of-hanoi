@@ -1,0 +1,46 @@
+#root {
+  position: relative;
+}
+.App {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.tower p {
+  display: inline;
+  margin: 0;
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+.tower {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 5px;
+  height: 200px;
+  padding: 10px;
+  background-color: whitesmoke;
+}
+.small {
+  background-color: yellow;
+  width: 50px;
+  height: 20px;
+}
+.medium {
+  background-color: green;
+  width: 70px;
+  height: 20px;
+}
+.big {
+  background-color: red;
+  width: 90px;
+  height: 20px;
+}
+#flyingDisk {
+  position: absolute;
+  pointer-events: none;
+}
